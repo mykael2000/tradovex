@@ -1,0 +1,112 @@
+[14-Mar-2023 08:33:07 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 08:33:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 08:42:28 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 08:42:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 08:43:46 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 08:43:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 09:02:03 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[14-Mar-2023 09:02:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[14-Mar-2023 09:02:54 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 09:02:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 09:03:43 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 09:03:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 15:23:19 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[14-Mar-2023 15:23:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[14-Mar-2023 15:23:21 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[14-Mar-2023 15:23:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[14-Mar-2023 15:54:46 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 15:54:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:26:23 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:26:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:36:20 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:36:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:49:29 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 16:49:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 17:21:38 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 17:21:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 20:33:54 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 20:33:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 21:31:30 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 21:31:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 22:49:35 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[14-Mar-2023 22:49:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 08:32:33 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 08:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:29:51 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:29:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:34:00 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:34:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:44:34 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 09:44:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 10:20:45 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 10:20:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 12:49:39 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 12:49:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 12:53:46 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 12:53:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 13:07:22 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 13:07:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 19:02:58 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 19:02:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 19:03:01 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[15-Mar-2023 19:03:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[15-Mar-2023 19:28:17 UTC] PHP Notice:  Undefined variable: user in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[15-Mar-2023 19:28:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/login.php on line 23
+[16-Mar-2023 14:14:46 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[16-Mar-2023 14:14:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[16-Mar-2023 18:13:07 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[16-Mar-2023 18:13:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[17-Mar-2023 13:19:29 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/hedgnexc/paystrem.com/user-area/includes/connection.php on line 3
+[17-Mar-2023 13:19:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/hedgnexc/paystrem.com/auth/logout.php on line 12
+[17-Mar-2023 13:19:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/hedgnexc/paystrem.com/auth/logout.php on line 13
+[17-Mar-2023 14:06:13 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[17-Mar-2023 14:06:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[17-Mar-2023 15:07:23 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[17-Mar-2023 15:07:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 11
+[19-Mar-2023 15:02:51 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/paystrem.com/auth/register.php on line 88
+[21-Mar-2023 10:32:13 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/logout.php on line 10
+[22-Mar-2023 15:41:50 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/logout.php on line 10
+[25-Mar-2023 16:10:04 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/logout.php on line 10
+[03-Apr-2023 19:01:12 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/hedgnexc/paystrem.com/user-area/includes/connection.php on line 3
+[07-Apr-2023 13:26:20 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/paystrem.com/auth/register.php on line 88
+[11-Apr-2023 00:43:13 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[20-Apr-2023 20:48:01 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[20-Apr-2023 21:26:45 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[20-Apr-2023 21:30:15 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[22-Apr-2023 15:57:08 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[10-May-2023 16:37:25 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/logout.php on line 10
+[12-May-2023 19:01:47 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/paystrem.com/auth/register.php on line 88
+[13-May-2023 02:41:06 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/paystrem.com/auth/verify-kyc.php on line 6
+[16-May-2023 22:35:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/hedgnexc/paystrem.com/user-area/includes/connection.php on line 3
+[16-May-2023 22:35:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/hedgnexc/paystrem.com/auth/login.php on line 9
+[16-May-2023 22:35:39 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/hedgnexc/paystrem.com/auth/login.php on line 10
+[09-Sep-2023 12:28:43 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[09-Sep-2023 12:28:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[09-Sep-2023 13:22:48 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/logout.php on line 10
+[09-Sep-2023 19:27:41 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[09-Sep-2023 19:27:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[09-Sep-2023 19:30:54 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[09-Sep-2023 19:30:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[09-Sep-2023 19:31:59 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[09-Sep-2023 19:31:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[09-Sep-2023 19:33:17 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[09-Sep-2023 19:33:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[11-Sep-2023 14:18:15 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[25-Sep-2023 18:49:47 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[25-Sep-2023 18:49:47 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[06-Oct-2023 04:05:03 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:08:21 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:09:34 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:15:45 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:19:33 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:24:46 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:45:55 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[07-Oct-2023 08:45:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[07-Oct-2023 08:48:35 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[07-Oct-2023 08:55:16 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[08-Oct-2023 06:26:06 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[08-Oct-2023 06:26:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 11
+[14-Oct-2023 01:43:12 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
+[25-Oct-2023 10:05:03 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/logout.php on line 10
+[26-Oct-2023 10:31:36 UTC] PHP Notice:  Undefined variable: phone in /home/hedgnexc/flixstat.com/dash/auth/register.php on line 86
+[27-Oct-2023 16:57:07 UTC] PHP Notice:  Undefined index: username in /home/hedgnexc/flixstat.com/dash/auth/verify-kyc.php on line 6
