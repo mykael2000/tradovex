@@ -784,7 +784,6 @@
                         <div>
                             <span>Credit your wallet and start earning with Tradovex.
                             </span>
-
                         </div>
                     </div>
                 </div>
