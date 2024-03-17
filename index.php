@@ -247,7 +247,7 @@
 
     <div class="section">
         <div class="container">
-            <h2 style="font-weight: 900; color: #fff;" class="text-center font-weight-bold text-white">International
+            <h2 style="font-weight: 900; color: #0f0b85;" class="text-center font-weight-bold">International
                 Trading Platform
             </h2>
             <h6 class="text-center mb-4">Various coins and diversified coin information. Crypto-crypto, fiat-crypto and
@@ -260,7 +260,7 @@
                             <img height="300px" width="300px" src="images/gl.png">
                         </div>
                         <div>
-                            <h3 class="text-white" style="color: #fff;">Global Layout</h3>
+                            <h3 style="color: #0f0b85;">Global Layout</h3>
                             <p style="font-weight: 700; font-size: 20px;">Many countries have set up local trading
                                 service
                                 centers to create multi business forms as one；The senior experts team in the financial
@@ -272,7 +272,7 @@
 
                     <div class="d-flex mb-3 service-alt">
                         <div style="padding-right: 200px;">
-                            <h3 class="text-white" style="color: #fff;">Security System</h3>
+                            <h3 style="color: #0f0b85;">Security System</h3>
                             <p style="font-weight: 700; font-size: 20px;">Professional distributed architecture and anti
                                 DoS
                                 attack system, separation of hot and cold wallets, multi-dimensional protection of user
@@ -289,7 +289,7 @@
                             <img height="300px" width="300px" src="images/ste.png">
                         </div>
                         <div>
-                            <h3 class="text-white" style="color: #fff;">Smooth Trading Experience</h3>
+                            <h3 style="color: #0f0b85;">Smooth Trading Experience</h3>
                             <p style="font-weight: 700; font-size: 20px;">Using an efficient matchmaking and trading
                                 engine
                                 to ensure a smooth trading experience, it can process millions of orders per second and
@@ -309,7 +309,7 @@
                             <img height="150px" width="150px" src="images/gl.png">
                         </div>
                         <div>
-                            <h3 class="text-white" style="color: #fff; font-weight:800;">Global Layout</h3>
+                            <h3 style="color: #0f0b85; font-weight:800;">Global Layout</h3>
                             <p style="font-weight: 700; font-size: 15px;">Many countries have set up local trading
                                 service
                                 centers to create multi business forms as one；The senior experts team in the financial
@@ -324,7 +324,7 @@
                             <img height="150px" width="150px" src="images/ss.png">
                         </div>
                         <div>
-                            <h3 class="text-white" style="color: #fff; font-weight:800;">Security System</h3>
+                            <h3 style="color: #0f0b85; font-weight:800;">Security System</h3>
                             <p style="font-weight: 700; font-size: 15px;">Professional distributed architecture and anti
                                 DoS
                                 attack system, separation of hot and cold wallets, multi-dimensional protection of user
@@ -338,7 +338,8 @@
                             <img height="150px" width="150px" src="images/ste.png">
                         </div>
                         <div>
-                            <h3 class="text-white" style="color: #fff; font-weight:800;">Smooth Trading Experience</h3>
+                            <h3 style="color: #0f0b85; font-weight:800;">Smooth Trading Experience
+                            </h3>
                             <p style="font-weight: 700; font-size: 15px;">Using an efficient matchmaking and trading
                                 engine
                                 to ensure a smooth trading experience, it can process millions of orders per second and
@@ -365,7 +366,7 @@
                 </div>
                 <div class="col-lg-5 pe-lg-5">
                     <div class="mb-5">
-                        <h2 class="text-white h4">Our advantage</h2>
+                        <h2 style="color: #0f0b85" class="h4">Our advantage</h2>
                         <p>Whether you are through our API, mobile application or website, Tradovex leading trading
                             engine can let you quickly trade safely.</p>
                     </div>
@@ -374,7 +375,7 @@
                             <span class="bi-wallet-fill me-4"></span>
                         </div>
                         <div>
-                            <h3 class="text-white">High profits</h3>
+                            <h3 style="color: #0f0b85">High profits</h3>
                             <p>Greater market volatility service, High profits</p>
                         </div>
                     </div>
@@ -384,7 +385,7 @@
                             <span class="bi-pie-chart-fill me-4"></span>
                         </div>
                         <div>
-                            <h3 class="text-white">High commission</h3>
+                            <h3 style="color: #0f0b85">High commission</h3>
                             <p>Greater market volatility service, High profits</p>
                         </div>
                     </div>
@@ -394,7 +395,7 @@
                             <span class="bi-bag-check-fill me-4"></span>
                         </div>
                         <div>
-                            <h3 class="text-white">Exchange index</h3>
+                            <h3 style="color: #0f0b85">Exchange index</h3>
                             <p>Docking mainstream exchange No longer operate the market</p>
                         </div>
                     </div>
@@ -409,7 +410,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-5 mx-auto text-center" data-aos="fade-up">
-                    <h2 class="heading text-white">Expanding Trades</h2>
+                    <h2 class="heading" style="color: #0f0b85">Expanding Trades</h2>
                     <p>Our suite of technologies enhances the Bitcoin ecosystem, making it easier for individuals and
                         businesses with zero trading experience are successfully making profit.</p>
                 </div>
@@ -423,7 +424,8 @@
                         <div>
 
                             <div>
-                                <h3 style="font-weight: 800;" class="text-white p-3 font-weight-bolder">ELITE PLAN</h3>
+                                <h3 style="font-weight: 800; color: #0f0b85" class="p-3 font-weight-bolder">ELITE PLAN
+                                </h3>
                                 <p class="mb-4">Minimum: $300,000</p>
                                 <p class="mb-4">Maximum: $6,000,000</p>
                                 <p class="mb-4">42%</p>
@@ -440,7 +442,8 @@
                     <div style="background-image: url('images/ross-sokolovski-UAFXj9dRpwo-unsplash.jpg')"
                         class="service text-center">
                         <div>
-                            <h3 style="font-weight: 800;" class="text-white p-3 font-weight-bolder">ADVANCED PLAN</h3>
+                            <h3 style="font-weight: 800; color: #0f0b85" class="p-3 font-weight-bolder">ADVANCED PLAN
+                            </h3>
                             <p class="mb-4">Minimum: $80,000</p>
                             <p class="mb-4">Maximum: $299,999</p>
                             <p class="mb-4">32%</p>
@@ -454,7 +457,8 @@
                     <div style="background-image: url('images/ross-sokolovski-UAFXj9dRpwo-unsplash.jpg')"
                         class="service text-center">
                         <div>
-                            <h3 style="font-weight: 800;" class="text-white p-3 font-weight-bolder">STANDARD PLAN</h3>
+                            <h3 style="font-weight: 800; color: #0f0b85" class="p-3 font-weight-bolder">STANDARD PLAN
+                            </h3>
                             <p class="mb-4">Minimum: $10,000</p>
                             <p class="mb-4">Maximum: $79,999</p>
                             <p class="mb-4">23%</p>
@@ -470,7 +474,7 @@
                     <div style="background-image: url('images/ross-sokolovski-UAFXj9dRpwo-unsplash.jpg')"
                         class="service text-center">
                         <div>
-                            <h3 style="font-weight: 800;" class="text-white p-3 font-weight-bolder">BASIC PLAN</h3>
+                            <h3 style="font-weight: 800; color: #0f0b85" class="p-3 font-weight-bolder">BASIC PLAN</h3>
                             <p class="mb-4">Minimum: $699</p>
                             <p class="mb-4">Maximum: $9,999</p>
                             <p class="mb-4">19%</p>
