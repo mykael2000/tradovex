@@ -430,7 +430,7 @@
                                 <p class="mb-4">Maximum: $6,000,000</p>
                                 <p class="mb-4">42%</p>
                                 <p class="mb-4">Instant Withdrawal</p>
-                                <p><a style="border-radius: 25px;" href="dash/auth/register.php"
+                                <p><a style="border-radius: 25px; color: #fff" href="dash/auth/register.php"
                                         class="btn btn-outline-primary py-2 px-3">Signup now</a>
                                 </p>
                             </div>
@@ -448,7 +448,7 @@
                             <p class="mb-4">Maximum: $299,999</p>
                             <p class="mb-4">32%</p>
                             <p class="mb-4">Instant Withdrawal</p>
-                            <p><a style="border-radius: 25px;" href="dash/auth/register.php"
+                            <p><a style="border-radius: 25px; color: #fff" href="dash/auth/register.php"
                                     class="btn btn-outline-primary py-2 px-3">Signup now</a></p>
                         </div>
                     </div>
@@ -463,7 +463,7 @@
                             <p class="mb-4">Maximum: $79,999</p>
                             <p class="mb-4">23%</p>
                             <p class="mb-4">Instant Withdrawal</p>
-                            <p><a style="border-radius: 25px;" href="dash/auth/register.php"
+                            <p><a style="border-radius: 25px; color: #fff" href="dash/auth/register.php"
                                     class="btn btn-outline-primary py-2 px-3">Signup now</a></p>
                         </div>
                     </div>
@@ -479,7 +479,7 @@
                             <p class="mb-4">Maximum: $9,999</p>
                             <p class="mb-4">19%</p>
                             <p class="mb-4">Instant Withdrawal</p>
-                            <p><a style="border-radius: 25px;" href="dash/auth/register.php"
+                            <p><a style="border-radius: 25px; color: #fff" href="dash/auth/register.php"
                                     class="btn btn-outline-primary py-2 px-3">Signup now</a></p>
                         </div>
                     </div>
