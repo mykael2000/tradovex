@@ -587,16 +587,16 @@
 
                                 Sign in on the Travodex website, click Make A Deposit > then select the crypto and
                                 network to deposit.
-
+                                <br>
                                 Caution:
-
+                                <br>
                                 1. The assets could be lost due to depositing with the wrong address
+                                <br>
                                 2. Withdrawal fees are charged
+                                <br>
                                 3. After the transfer on the blockchain reaches certain confirmations, you will receive
                                 the assets.
-
-
-
+                                <br>
                                 Please note that the assets could be lost if you deposit with the wrong address .
                             </div>
                         </div>
@@ -621,30 +621,32 @@
 
                                 Regarding the withdrawal process, you can check the current status of the withdrawal
                                 through the following information:
-
+                                <br>
                                 Web: Tradovex home page > Withdraw > Check the order status in the withdrawal history
-
+                                <br>
                                 Withdrawal status and corresponding situation
-
+                                <br>
                                 Processing: Your withdrawal is still being reviewed, and we will process your withdrawal
                                 after the review is completed.
                                 If your withdrawal has been under review for more than 15 minutes, please contact
-                                Travodex customer service, and we will process it for you as soon as possible. 2.
+                                Travodex customer service, and we will process it for you as soon as possible.
+                                <br>
+                                2.
                                 Pending: We are preparing to execute your withdrawal.
-
+                                <br>
                                 If your withdrawal has been under process for more than one hour, please contact
                                 Tradovex customer service, and we will process it as soon as possible.
-
+                                <br>
                                 3. Completed: Your withdrawal has been processed, and you can check the status on the
                                 external exchange
-
+                                <br>
                                 If the Tradovex status shows success/completed, but you have not received the transfer,
                                 please contact the external exchange/wallet for further assistance.
-
+                                <br>
                                 If your withdrawal has exceeded the expected processing time mentioned above, please
                                 provide the following information and contact our live chat or email
                                 support@tradovex.com:
-
+                                <br>
                                 Travodex account (mobile phone/email used for registration)
                                 Withdrawal currency name, withdrawal amount,
                                 Screenshot of the details of the withdrawal record
