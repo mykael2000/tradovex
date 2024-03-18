@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Untree.co">
     <link rel="shortcut icon" href="images/favicon.png">
-    <meta content="Squardex: Bitcoin and digital asset infrastructure" />
+    <meta content="Tradovex: Bitcoin and digital asset infrastructure" />
     <meta name="description"
-        content="Squardex is the global leader in Bitcoin and blockchain technologies, building the foundations for the financial infrastructure of the future." />
+        content="Tradovex is the global leader in Bitcoin and blockchain technologies, building the foundations for the financial infrastructure of the future." />
     <meta name="keywords" content="bootstrap, bootstrap5" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/flatpickr.min.css">
 
 
-    <title>Squardex - Home</title>
+    <title>Tradovex - Home</title>
     <style>
     @media only screen and (max-width: 600px) {
         #field {

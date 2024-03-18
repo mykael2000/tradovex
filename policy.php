@@ -80,7 +80,7 @@
                         </div>
                         <div class="col-4 text-end">
                             <a href="#"
-                                class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light">
+                                class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none dark">
                                 <span></span>
                             </a>
 
