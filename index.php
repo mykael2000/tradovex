@@ -590,7 +590,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a style="background-color: #030769; border-radius: 25px;" href="dash/auth/register.php"
+                    <a style="background-color: #030769; color:#fff; border-radius: 25px;" href="dash/auth/register.php"
                         class="btn btn-outline-white-reverse me-4">Get Started</a>
                 </div>
             </div>
