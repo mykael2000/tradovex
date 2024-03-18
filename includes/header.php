@@ -85,11 +85,11 @@
                             </a>
 
                             <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #ffc107;"
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #030769;"
                                         class="text-white btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="background-color: #ffc107;"
+                                <li style="padding: 5px;"><a style="background-color: #030769;"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>

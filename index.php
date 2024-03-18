@@ -85,11 +85,11 @@
                             </a>
 
                             <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #0f0b85;"
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #030769;"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #0f0b85;"
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #030769;"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -120,8 +120,8 @@
                         market conditions.
                     </p>
                     <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
-                        <a style="background-color: #ffc107; border-radius: 25px;" href="dash/auth/register.php"
-                            class="btn btn-outline-white-reverse me-4">Register Now</a>
+                        <a style="background-color: #030769; border-radius: 25px; color: #fff"
+                            href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
                 </div>
@@ -587,7 +587,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a style="background-color: #ffc107; border-radius: 25px;" href="dash/auth/register.php"
+                    <a style="background-color: #030769; border-radius: 25px;" href="dash/auth/register.php"
                         class="btn btn-outline-white-reverse me-4">Get Started</a>
                 </div>
             </div>
