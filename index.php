@@ -493,7 +493,8 @@
     <div class="section sec-features">
         <div class="container ">
             <div class="row mb-5">
-                <h2 class="text-white d-flex justify-content-center">How does Tradovex sercure user data?</h2>
+                <h2 style="color: #030769" class="d-flex justify-content-center">How does Tradovex sercure user data?
+                </h2>
                 <p class="d-flex justify-content-center">On top of using the three key secure connection protocols
                     explained
                     above.
@@ -515,7 +516,7 @@
                                 d="M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1" />
                         </svg>
                         <div style="padding-left: 10px;">
-                            <h3 class="text-white">Web Application Firewall</h3>
+                            <h3 style="color: #030769">Web Application Firewall</h3>
 
                         </div>
                     </div>
@@ -528,7 +529,7 @@
                                 d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5" />
                         </svg>
                         <div style="padding-left: 10px;">
-                            <h3 class="text-white">DDOS attack protection</h3>
+                            <h3 style="color: #030769">DDOS attack protection</h3>
 
                         </div>
                     </div>
@@ -543,7 +544,7 @@
                                 d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z" />
                         </svg>
                         <div style="padding-left: 10px;">
-                            <h3 class="text-white">SSL/TLS encryption between visitors and origin servers.</h3>
+                            <h3 style="color: #030769">SSL/TLS encryption between visitors and origin servers.</h3>
 
                         </div>
                     </div>
@@ -553,7 +554,7 @@
     </div>
     <div class="section sec-features">
         <div class="container">
-            <h2 class="text-white d-flex justify-content-center">Setup an Account</h2>
+            <h2 style="color: #030769" class="d-flex justify-content-center">Setup an Account</h2>
             <p class="d-flex justify-content-center"> Start trading with ease
             </p>
             <div class="row g-5">
@@ -597,7 +598,8 @@
     </div>
     <div class="section sec-features">
         <div class="container">
-            <h2 class="text-white d-flex justify-content-center">Tradovex helps traders win regardless of market
+            <h2 style="color: #030769" class="d-flex justify-content-center">Tradovex helps traders win regardless of
+                market
                 conditions
             </h2>
             <p class="row mb-5 p-2 d-flex justify-content-center">For every market condition, there’s a trading strategy
@@ -607,16 +609,18 @@
             <div class="row g-5">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                     <div class="feature">
-                        <h3 class="text-white">Bear markets</h3>
-                        <p>Uses DCA Short bots to borrow and sell coin at the current price and buy them back at a lower
+                        <h3 style="color: #030769">Bear markets</h3>
+                        <p style="color: black">Uses DCA Short bots to borrow and sell coin at the current price and buy
+                            them back at a lower
                             price</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature d-flex">
                         <div class="feature">
-                            <h3 class="text-white">Bull markets</h3>
-                            <p>Uses DCA Long bots to buy the natural dips and sell the spikes as the price rises over
+                            <h3 style="color: #030769">Bull markets</h3>
+                            <p style="color: black">Uses DCA Long bots to buy the natural dips and sell the spikes as
+                                the price rises over
                                 time,
                                 achieving a better average entry price for your positions</p>
                         </div>
@@ -625,8 +629,9 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature d-flex">
                         <div class="feature">
-                            <h3 class="text-white">Sideways markets</h3>
-                            <p>Uses Grid bots to pick up coin when they hit support levels and sell them when they’re
+                            <h3 style="color: #030769">Sideways markets</h3>
+                            <p style="color: black">Uses Grid bots to pick up coin when they hit support levels and sell
+                                them when they’re
                                 close
                                 to resistance levels. This is just a small sample of the many paths you can take to make
                                 profits by leveraging the power of the Tradovex trading platform</p>
@@ -636,8 +641,9 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature d-flex">
                         <div class="feature">
-                            <h3 class="text-white">Trade Automation</h3>
-                            <p>Our DCA, Grid, Options, and Futures bots are proven performers that execute your trading
+                            <h3 style="color: #030769">Trade Automation</h3>
+                            <p style="color: black">Our DCA, Grid, Options, and Futures bots are proven performers that
+                                execute your trading
                                 strategy at scale. The market never sleeps, and neither do our bots.</p>
                         </div>
                     </div>
@@ -645,8 +651,9 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature d-flex">
                         <div class="feature">
-                            <h3 class="text-white">Automated trading platform</h3>
-                            <p>With Tradovex, You can fully automate your trading, this way and it gives you the
+                            <h3 style="color: #030769">Automated trading platform</h3>
+                            <p style="color: black">With Tradovex, You can fully automate your trading, this way and it
+                                gives you the
                                 opportunity
                                 to trade, even as a complete beginner. For more advanced traders, it is a great way to
                                 not
@@ -662,7 +669,7 @@
 
     <div class="section sec-features">
         <div class="container">
-            <h2 class="text-white d-flex justify-content-center">How the referral program works
+            <h2 style="color: #030769" class="d-flex justify-content-center">How the referral program works
             </h2>
             <p class="row mb-5 p-2 d-flex justify-content-center">Tradovex believes there is no better advertisement
                 than
@@ -687,9 +694,10 @@
             <div class="row g-5">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                     <div class="feature">
-                        <h3 class="text-white">Open Account
+                        <h3 style="color: #030769">Open Account
                         </h3>
-                        <p>To open an account, simply click on the “Register New Account” button on the main page. The
+                        <p style="color: black">To open an account, simply click on the “Register New Account” button on
+                            the main page. The
                             next
                             page is the registration form that you need to fill out. This shouldn’t take more than a few
                             minutes. Once you’ve done that, you’ll receive an email from us, and you’re done. You are
@@ -700,9 +708,10 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature d-flex">
                         <div class="feature">
-                            <h3 class="text-white">MAKE YOUR FIRST DEPOSIT
+                            <h3 style="color: #030769">MAKE YOUR FIRST DEPOSIT
                             </h3>
-                            <p>To start growing your Capital, you need to make a deposit. You can do this from the
+                            <p style="color: black">To start growing your Capital, you need to make a deposit. You can
+                                do this from the
                                 deposit
                                 section of your account. There are 4 plans ranging from 19% - 42% Steady and Stable
                                 return

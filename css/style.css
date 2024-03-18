@@ -12898,11 +12898,11 @@ textarea {
 }
 
 .sec-features {
-  background-color: #011d4a;
-  background: #011d4a;
-  background: -webkit-linear-gradient(310deg, #011d4a 0%, #151617 100%);
-  background: -o-linear-gradient(310deg, #011d4a 0%, #151617 100%);
-  background: linear-gradient(140deg, #011d4a 0%, #151617 100%);
+  background-color: #fff;
+  background: #fff;
+  background: -webkit-linear-gradient(310deg, #fff 0%, #fff 100%);
+  background: -o-linear-gradient(310deg, #fff 0%, #fff 100%);
+  background: linear-gradient(140deg, #fff 0%, #fff 100%);
   overflow: hidden;
 }
 .sec-features .feature [class^="bi-"] {
@@ -12914,7 +12914,7 @@ textarea {
   margin-right: 10px;
 }
 .sec-features .feature [class^="bi-"]:before {
-  color: #fff;
+  color: black;
   z-index: 2;
   position: relative;
 }
@@ -12932,10 +12932,10 @@ textarea {
 .sec-features .feature .h3 {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #030769;
 }
 .sec-features .feature p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #030769;
 }
 .sec-features .feature p:last-child {
   margin-bottom: 0;
