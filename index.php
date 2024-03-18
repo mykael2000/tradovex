@@ -106,8 +106,8 @@
             <div class="row align-items-center justify-content-between pt-3">
                 <div class="col-lg-8 text-center text-lg-start pe-lg-5">
                     <h1 style="font-size: 35px" class="heading text-white mb-3" data-aos="fade-up">
-                        <br><br>User-trusted<br>
-                        cryptocurrency trading platform
+                        <br><br>Do more<br>
+                        with your crypto with Tradovex
                     </h1>
                     <p style="font-size: 18px; font-weight: 700;" class="text-white mb-8" data-aos="fade-up"
                         data-aos-delay="100">

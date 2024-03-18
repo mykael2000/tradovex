@@ -381,7 +381,7 @@
                                 <button style="background-color: #fff; color: black;" class="btn btn-link" type="button"
                                     data-toggle="collapse" data-target="#faqCollapse13" aria-expanded="true"
                                     aria-controls="faqCollapse13">
-                                    How can I see who my upline is?
+                                    Is it possible to upgrade my plan?
                                 </button>
                             </h5>
                         </div>
@@ -389,8 +389,9 @@
                         <div id="faqCollapse13" class="collapse" aria-labelledby="faqHeading13"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                You can find information about your upline in the "Referral" section of your account
-                                dashboard.
+
+                                Yes, it is possible, all you need to do to upgrade your plan is to make an additional
+                                deposit that matches with the plan do you want to upgrade to.
                             </div>
                         </div>
                     </div>
@@ -552,6 +553,103 @@
                                 trading is allowed in an account is a decision made by the individual broker. Many allow
                                 auto trading, but some prohibit it for their clients. When you’re trading with tradovex
                                 you’re always free to use auto trading to enhance your trading and potential profits.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 21 -->
+                    <div class="card">
+                        <div class="card-header" id="faqHeading21">
+                            <h5 class="mb-0">
+                                <button style="background-color: #fff; color: black;" class="btn btn-link" type="button"
+                                    data-toggle="collapse" data-target="#faqCollapse21" aria-expanded="true"
+                                    aria-controls="faqCollapse21">
+                                    How to Deposit Crypto
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="faqCollapse21" class="collapse" aria-labelledby="faqHeading21"
+                            data-parent="#faqAccordion">
+                            <div class="card-body">
+
+
+                                Before depositing, please make sure which coin you want for the transfer.
+
+                                For example, If you want to withdraw Bitcoin (BTC) from an external exchange to your
+                                Travodex account. You need to select “Withdraw” and choose Bitcoin on external exchange
+                                then click on send on your external exchange.
+
+
+                                How to get the deposit address
+
+                                Web：
+
+                                Sign in on the Travodex website, click Make A Deposit > then select the crypto and
+                                network to deposit.
+
+                                Caution:
+
+                                1. The assets could be lost due to depositing with the wrong address
+                                2. Withdrawal fees are charged
+                                3. After the transfer on the blockchain reaches certain confirmations, you will receive
+                                the assets.
+
+
+
+                                Please note that the assets could be lost if you deposit with the wrong address .
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 22 -->
+                    <div class="card">
+                        <div class="card-header" id="faqHeading22">
+                            <h5 class="mb-0">
+                                <button style="background-color: #fff; color: black;" class="btn btn-link" type="button"
+                                    data-toggle="collapse" data-target="#faqCollapse22" aria-expanded="true"
+                                    aria-controls="faqCollapse22">
+                                    How to view Withdrawal status at Tradovex
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="faqCollapse22" class="collapse" aria-labelledby="faqHeading22"
+                            data-parent="#faqAccordion">
+                            <div class="card-body">
+
+
+                                Regarding the withdrawal process, you can check the current status of the withdrawal
+                                through the following information:
+
+                                Web: Tradovex home page > Withdraw > Check the order status in the withdrawal history
+
+                                Withdrawal status and corresponding situation
+
+                                Processing: Your withdrawal is still being reviewed, and we will process your withdrawal
+                                after the review is completed.
+                                If your withdrawal has been under review for more than 15 minutes, please contact
+                                Travodex customer service, and we will process it for you as soon as possible. 2.
+                                Pending: We are preparing to execute your withdrawal.
+
+                                If your withdrawal has been under process for more than one hour, please contact
+                                Tradovex customer service, and we will process it as soon as possible.
+
+                                3. Completed: Your withdrawal has been processed, and you can check the status on the
+                                external exchange
+
+                                If the Tradovex status shows success/completed, but you have not received the transfer,
+                                please contact the external exchange/wallet for further assistance.
+
+                                If your withdrawal has exceeded the expected processing time mentioned above, please
+                                provide the following information and contact our live chat or email
+                                support@tradovex.com:
+
+                                Travodex account (mobile phone/email used for registration)
+                                Withdrawal currency name, withdrawal amount,
+                                Screenshot of the details of the withdrawal record
+                                We will check the progress of the withdrawal for you as soon as possible after receiving
+                                it.
                             </div>
                         </div>
                     </div>
