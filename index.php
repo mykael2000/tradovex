@@ -105,19 +105,21 @@
         <div class="container">
             <div class="row align-items-center justify-content-between pt-3">
                 <div class="col-lg-8 text-center text-lg-start pe-lg-5">
-                    <h1 style="font-size: 35px" class="heading text-white mb-3" data-aos="fade-up">
+                    <h1 style="font-size: 35px; color: #030769;" class="heading mb-3" data-aos="fade-up">
                         <br><br>Do more<br>
                         with your crypto with Tradovex
                     </h1>
-                    <p style="font-size: 18px; font-weight: 700;" class="text-white mb-8" data-aos="fade-up"
-                        data-aos-delay="100">
-                        Tradovex is the global leader in Bitcoin and blockchain technology, Real-time and dynamic market
-                        statistics,
-                        precise candlesticks and custom indicator tools
-                        help you to grasp clear trends.
+                    <p style="color: black; font-size: 18px; font-weight: 700;" class="mb-8 text-black"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <span style="color: black;">Tradovex is the global leader in Bitcoin and blockchain technology,
+                            Real-time and dynamic market
+                            statistics,
+                            precise candlesticks and custom indicator tools
+                            help you to grasp clear trends.</span>
                         <br><br>
-                        Our program, unlike any other, guarantees fix daily interest for investors regardless of
-                        market conditions.
+                        <span style="color: black;">Our program, unlike any other, guarantees fix daily interest for
+                            investors regardless of
+                            market conditions.</span>
                     </p>
                     <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
                         <a style="background-color: #030769; border-radius: 25px; color: #fff"
