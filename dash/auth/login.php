@@ -89,7 +89,7 @@ if (isset($_POST['submit'])) {
                                             <div class="d-flex content-justify">
                                                 <div class="text-right w-50">
                                                     <a style="position:relative; left: 85%; color: #ffc107"
-                                                        class="font-weight-bold large" href="#">Forgot
+                                                        class="font-weight-bold large" href="forgot.php">Forgot
                                                         password?</a>
                                                 </div>
                                             </div>
