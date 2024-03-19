@@ -116,10 +116,7 @@
                             statistics,
                             precise candlesticks and custom indicator tools
                             help you to grasp clear trends.</span>
-                        <br><br>
-                        <span style="color: black;">Our program, unlike any other, guarantees fix daily interest for
-                            investors regardless of
-                            market conditions.</span>
+
                     </p>
                     <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
                         <a style="background-color: #030769; border-radius: 25px; color: #fff"

@@ -44,7 +44,7 @@
 
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <p class="text-white">Copyright &copy;2018 - 2023. All Rights Reserved. &mdash; tradovex.</p>
+                <p class="text-white">Copyright &copy;2024 All Rights Reserved. &mdash; tradovex.</p>
             </div>
         </div>
     </div> <!-- /.container -->
