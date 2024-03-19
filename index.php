@@ -111,7 +111,8 @@
                     </h1>
                     <p style="color: black; font-size: 18px; font-weight: 700;" class="mb-8 text-black"
                         data-aos="fade-up" data-aos-delay="100">
-                        <span style="color: black;">Tradovex is the global leader in Bitcoin and blockchain technology,
+                        <span style="color: black; line-height:3;">Tradovex is the global leader in Bitcoin and
+                            blockchain technology,
                             Real-time and dynamic market
                             statistics,
                             precise candlesticks and custom indicator tools
