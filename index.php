@@ -109,9 +109,9 @@
                         <br><br>Do more<br>
                         with your crypto with Tradovex
                     </h1>
-                    <p style="color: black; font-size: 18px; font-weight: 700;" class="mb-8 text-black"
+                    <p style="color: black; font-size: 18px; font-weight: 700; padding: 7px;" class="mb-8 text-black"
                         data-aos="fade-up" data-aos-delay="100">
-                        <span style="color: black; line-height:3;">Tradovex is the global leader in Bitcoin and
+                        <span style="color: black; line-height:2;">Tradovex is the global leader in Bitcoin and
                             blockchain technology,
                             Real-time and dynamic market
                             statistics,
