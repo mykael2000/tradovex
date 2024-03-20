@@ -296,12 +296,12 @@ if (isset($_POST['changepicture'])) {
                 <div class="logo-box">
                     <a href="dashboard.php" class="logo text-center logo-light">
                         <span class="logo-lg">
-                            <img src="../../images/logo.png" alt="" height="35">
+                            <img src="../../tradovexlogo.png" alt="" height="35">
                             <!-- <span class="logo-lg-text-dark">Uplon</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-lg-text-dark">U</span> -->
-                            <img src="../../images/logo.png" alt="" height="24">
+                            <img src="../../tradovexlogo.png" alt="" height="24">
                         </span>
                     </a>
                 </div>
@@ -400,7 +400,7 @@ if (isset($_POST['changepicture'])) {
                         <div class="card-body">
 
                             <div class="profile-section d-flex">
-                                <div class="profile-img w-25">
+                                <!-- <div class="profile-img w-25">
                                     <img src="pictures/<?php echo $getdetails['avatar']; ?>" id="avatar_preview"
                                         class="w-100 img-thumbnail">
                                     <span class="text-danger avatar fts-12"></span>
@@ -412,7 +412,7 @@ if (isset($_POST['changepicture'])) {
 
                                         </label>
                                     </form>
-                                </div>
+                                </div> -->
                                 <div class="personal-details w-50 pl-3">
                                     <h3 class="d-full_name"><?php echo $getdetails['first_name']; ?>
                                         <?php echo $getdetails['last_name']; ?></h3>

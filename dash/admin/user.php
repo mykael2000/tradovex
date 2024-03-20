@@ -42,7 +42,7 @@ $query = mysqli_query($con, $sql);
                         <div class="header-content">
                             <div class="header-left">
                                 <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img
-                                            src="images/logoi.png" alt="" width="40"></a></div>
+                                            src="tradovexlogoi.png" alt="" width="40"></a></div>
                                 <div class="search">
                                     <form action="#">
                                         <div class="input-group"><input type="text" class="form-control"
@@ -143,7 +143,7 @@ $query = mysqli_query($con, $sql);
         </div>
 
         <div class="sidebar">
-            <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="images/logoi.png" alt=""
+            <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="tradovexlogoi.png" alt=""
                         width="30"></a></div>
             <div class="menu">
                 <ul>

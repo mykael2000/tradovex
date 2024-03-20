@@ -159,7 +159,7 @@ if (isset($_POST['withdraw'])) {
 
 <body style="background-color: black;">
     <div style="position:relative; top:50px;" class="d-flex justify-content-center align-items-center p-2">
-        <a href="dashboard.php"><img class="" src="../../images/logo.png"></a>
+        <a href="dashboard.php"><img class="" src="../../tradovexlogo.png"></a>
     </div>
     <div class="d-flex justify-content-center align-items-center container">
         <div style="background-color: #222;" class="card py-5 px-3">

@@ -1,6 +1,6 @@
 <?php
 
-include('../user-area/includes/connection.php');
+include '../user-area/includes/connection.php';
 $userid = $_GET['id'];
 $sql = "SELECT * FROM withdrawals WHERE client_id = '$userid'";
 $query = mysqli_query($con, $sql);
@@ -36,7 +36,7 @@ $query = mysqli_query($con, $sql);
           <div class="col-xxl-12">
              <div class="header-content">
                 <div class="header-left">
-                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="40"></a></div>
+                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="40"></a></div>
                    <div class="search">
                       <form action="#">
                          <div class="input-group"><input type="text" class="form-control" placeholder="Search Here"><span class="input-group-text"><i class="ri-search-line"></i></span></div>
@@ -122,7 +122,7 @@ $query = mysqli_query($con, $sql);
  </div>
 
     <div class="sidebar">
-    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="30"></a></div>
+    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="30"></a></div>
     <div class="menu">
         <ul>
             <li><a href="index.php">
@@ -130,7 +130,7 @@ $query = mysqli_query($con, $sql);
                     <span class="nav-text">Dashboard</span>
                 </a>
             </li>
-            
+
             <li class="logout"><a href="#">
                     <span><i class="ri-logout-circle-line"></i></span>
                     <span class="nav-text">Signout</span>
@@ -158,7 +158,7 @@ $query = mysqli_query($con, $sql);
                 </div>
             </div>
             <div class="row">
-                
+
                 <div class="col-xl-12">
                   <div class="card">
                      <div class="card-header">
@@ -175,8 +175,8 @@ $query = mysqli_query($con, $sql);
                                        </th>
                                        <th>Tranx_id</th>
                                        <th>Username</th>
-                                      
-                                       
+
+
                                        <th>Pay Via</th>
                                        <th>Address</th>
                                        <th>Amount</th>
@@ -186,28 +186,28 @@ $query = mysqli_query($con, $sql);
                                        <th>Delete</th>
                                     </tr>
                                  </thead>
-                                 <?php   while($getdetails = mysqli_fetch_assoc($query)){?>
+                                 <?php while ($getdetails = mysqli_fetch_assoc($query)) {?>
                                  <tbody>
                                     <tr>
                                        <td>
                                           <div class="form-check"><input class="form-check-input" type="checkbox" id="flexCheckDefault" value=""></div>
                                        </td>
-                                       <td><?php echo $getdetails['tranx_id'];  ?></td>
-                                       <td><?php echo $getdetails['username'];  ?></td>
-                                      
-                                       <td><?php echo $getdetails['payvia'];  ?></td>
-                                       <td><?php echo $getdetails['address'];  ?></td>
-                                       <td><?php echo $getdetails['amount'];  ?></td>
-                                       
-                                       <td><?php echo $getdetails['status'];  ?></td>
-                                       <td><?php echo $getdetails['created_at'];  ?></td>
-                                       <td><button onclick="window.location.href='withdrawalEdit.php?id=<?php echo $getdetails['id'];?>&userid=<?php echo $userid; ?>'" style="color:red;">Edit</button></td>
-                                      
-                                       <td><button onclick="window.location.href='deletewith.php?id=<?php echo $getdetails['id'];?>&userid=<?php echo $userid; ?>'" style="color:red;">Delete</button></td>
+                                       <td><?php echo $getdetails['tranx_id']; ?></td>
+                                       <td><?php echo $getdetails['username']; ?></td>
+
+                                       <td><?php echo $getdetails['payvia']; ?></td>
+                                       <td><?php echo $getdetails['address']; ?></td>
+                                       <td><?php echo $getdetails['amount']; ?></td>
+
+                                       <td><?php echo $getdetails['status']; ?></td>
+                                       <td><?php echo $getdetails['created_at']; ?></td>
+                                       <td><button onclick="window.location.href='withdrawalEdit.php?id=<?php echo $getdetails['id']; ?>&userid=<?php echo $userid; ?>'" style="color:red;">Edit</button></td>
+
+                                       <td><button onclick="window.location.href='deletewith.php?id=<?php echo $getdetails['id']; ?>&userid=<?php echo $userid; ?>'" style="color:red;">Delete</button></td>
                                        </tr>
-                                    
+
                                  </tbody>
-                                 <?php } ?>
+                                 <?php }?>
                               </table>
                            </div>
                         </div>

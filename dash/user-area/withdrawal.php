@@ -279,12 +279,12 @@ $email = $getdetails['email'];
                 <div class="logo-box">
                     <a href="dashboard.php" class="logo text-center logo-light">
                         <span class="logo-lg">
-                            <img src="../../images/logo.png" alt="" height="35">
+                            <img src="../../tradovexlogo.png" alt="" height="35">
                             <!-- <span class="logo-lg-text-dark">Uplon</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-lg-text-dark">U</span> -->
-                            <img src="../../images/logo.png" alt="" height="24">
+                            <img src="../../tradovexlogo.png" alt="" height="24">
                         </span>
                     </a>
                 </div>

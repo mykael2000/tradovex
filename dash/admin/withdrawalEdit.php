@@ -1,14 +1,14 @@
 <?php
 
-include('../user-area/includes/connection.php');
+include '../user-area/includes/connection.php';
 $userid = $_GET['userid'];
 $sqlUser = "SELECT * FROM clients WHERE id = '$userid'";
 $queryUser = mysqli_query($con, $sqlUser);
 $getdetails = mysqli_fetch_assoc($queryUser);
-$cuserid= $_GET['id'];
+$cuserid = $_GET['id'];
 
 $sql = "SELECT * FROM withdrawals WHERE id = '$cuserid'";
-$query = mysqli_query($con,$sql);
+$query = mysqli_query($con, $sql);
 $getwithdrawal = mysqli_fetch_assoc($query);
 
 $tranx_id = $getwithdrawal['tranx_id'];
@@ -19,18 +19,16 @@ $amount = $getwithdrawal['amount'];
 $status = $getwithdrawal['status'];
 $created_at = $getwithdrawal['created_at'];
 
+if (isset($_POST['edit'])) {
+    $newstatus = $_POST['status'];
 
-if(isset($_POST['edit'])){
-   $newstatus = $_POST['status'];
-
-   $sqlwith = "UPDATE withdrawals set status = '$newstatus' WHERE id = '$cuserid'";
-   $querywith = mysqli_query($con,$sqlwith);
-   echo "<script>alert('Withdrawal status updated successfully')</script>";
-   header("refresh:1;url=withdrawalEdit.php?id=$cuserid&userid=$userid");
+    $sqlwith = "UPDATE withdrawals set status = '$newstatus' WHERE id = '$cuserid'";
+    $querywith = mysqli_query($con, $sqlwith);
+    echo "<script>alert('Withdrawal status updated successfully')</script>";
+    header("refresh:1;url=withdrawalEdit.php?id=$cuserid&userid=$userid");
 }
 // if(isset($_POST['editDeposits'])){
 //     $activeDeposits = $_POST['activeDeposits'];
-   
 
 //     $updateDeposits = "UPDATE deposits set totalReferrals=  '$totalReferrals', totalDeposits = '$totalDeposits' WHERE client_id = '$userid'";
 //     $updateQuery = mysqli_query($con,$updateDeposits);
@@ -70,7 +68,7 @@ if(isset($_POST['edit'])){
           <div class="col-xxl-12">
              <div class="header-content">
                 <div class="header-left">
-                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="40"></a></div>
+                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="40"></a></div>
                    <div class="search">
                       <form action="#">
                          <div class="input-group"><input type="text" class="form-control" placeholder="Search Here"><span class="input-group-text"><i class="ri-search-line"></i></span></div>
@@ -156,7 +154,7 @@ if(isset($_POST['edit'])){
  </div>
 
     <div class="sidebar">
-    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="30"></a></div>
+    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="30"></a></div>
     <div class="menu">
         <ul>
             <li><a href="index.php">
@@ -164,7 +162,7 @@ if(isset($_POST['edit'])){
                     <span class="nav-text">Dashboard</span>
                 </a>
             </li>
-            
+
             <li class="logout"><a href="auth/login.php">
                     <span><i class="ri-logout-circle-line"></i></span>
                     <span class="nav-text">Signout</span>
@@ -192,7 +190,7 @@ if(isset($_POST['edit'])){
                 </div>
             </div>
             <div class="col-xl-12">
-                   
+
                      <div class="col-xxl-12">
                             <div class="card">
                                 <div class="card-header">
@@ -234,13 +232,13 @@ if(isset($_POST['edit'])){
                                                     <option value="completed">Completed</option>
                                                     <option value="failed">Failed</option>
                                                 </select>
-                                                
+
                                             </div>
                                             <div class="col-xxl-6 col-xl-6 col-lg-6">
                                                 <label class="form-label">Date of deposit</label>
                                                 <input type="text" class="form-control" value="<?php echo $created_at; ?>" disabled>
                                             </div>
-                                            
+
                                             <div class="col-12">
                                                 <button name = "edit" class="btn btn-primary pl-5 pr-5">Edit Withdrawal</button>
                                             </div>
@@ -249,7 +247,7 @@ if(isset($_POST['edit'])){
                                 </div>
                             </div>
                         </div>
-                 
+
                 </div>
         </div>
     </div>

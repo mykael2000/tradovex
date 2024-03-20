@@ -1,6 +1,6 @@
 <?php
 
-include('../user-area/includes/connection.php');
+include '../user-area/includes/connection.php';
 session_start();
 
 $userid = $_GET['id'];
@@ -8,10 +8,7 @@ $sqlUser = "SELECT * FROM clients WHERE id = '$userid'";
 $queryUser = mysqli_query($con, $sqlUser);
 $getdetails = mysqli_fetch_assoc($queryUser);
 
-
-
-
-if(isset($_POST['editDeposits'])){
+if (isset($_POST['editDeposits'])) {
     $activeDeposits = $_POST['activeDeposits'];
     $totalBalance = $_POST['totalBalance'];
     $totalEarnings = $_POST['totalEarnings'];
@@ -20,26 +17,26 @@ if(isset($_POST['editDeposits'])){
     $totalWithdrawal = $_POST['totalWithdrawal'];
     $pendingWithdrawal = $_POST['pendingWithdrawal'];
     $updateDeposits = "UPDATE clients set active_deposits = '$activeDeposits', total_balance = '$totalBalance', total_earnings = '$totalEarnings', total_referrals=  '$totalReferrals', total_deposits = '$totalDeposits', total_withdrawals = '$totalWithdrawal', pending_withdrawal = '$pendingWithdrawal' WHERE id = '$userid'";
-    $updateQuery = mysqli_query($con,$updateDeposits);
+    $updateQuery = mysqli_query($con, $updateDeposits);
 
     header("location:edit.php?id=$userid");
 
 }
-if(isset($_POST['addDeposit'])){
-    $tranx_id = rand(0000,9999);
+if (isset($_POST['addDeposit'])) {
+    $tranx_id = rand(0000, 9999);
     $username = $getdetails['username'];
     $paidvia = $_POST['paidvia'];
     $amount = $_POST['amount'];
     $plan = $_POST['plan'];
-    if(empty($_POST['investmet_status'])){
+    if (empty($_POST['investmet_status'])) {
         $investment_status = "not-atcive";
-    }else{
+    } else {
         $investment_status = $_POST['investment_status'];
     }
     $created_at = $_POST['created_at'];
 
     $addsql = "INSERT into deposits (client_id, username, tranx_id, plan, paid_via, amount, status, created_at) VALUES ('$userid','$username','$tranx_id','$plan','$paidvia','$amount','$investment_status','$created_at')";
-    $addquery = mysqli_query($con,$addsql);
+    $addquery = mysqli_query($con, $addsql);
 
     echo "<script>alert('Deposit has been added successfully')</script>";
 }
@@ -75,7 +72,7 @@ if(isset($_POST['addDeposit'])){
           <div class="col-xxl-12">
              <div class="header-content">
                 <div class="header-left">
-                   <div class="brand-logo"><a class="mini-logo" href="index.php"><img src="images/logoi.png" alt="" width="40"></a></div>
+                   <div class="brand-logo"><a class="mini-logo" href="index.php"><img src="tradovexlogoi.png" alt="" width="40"></a></div>
                    <div class="search">
                       <a href="deposit.php?id=<?php echo $userid; ?>" class="btn btn-primary pl-5 pm-5">Check deposit history</a>
                    </div>
@@ -162,7 +159,7 @@ if(isset($_POST['addDeposit'])){
  </div>
 
     <div class="sidebar">
-    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="30"></a></div>
+    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="30"></a></div>
     <div class="menu">
         <ul>
             <li><a href="index.php">
@@ -180,7 +177,7 @@ if(isset($_POST['addDeposit'])){
                     <span class="nav-text">Payment</span>
                 </a>
             </li>
-           
+
             <li class="auth/login.php"><a href="signin.html">
                     <span><i class="ri-logout-circle-line"></i></span>
                     <span class="nav-text">Signout</span>
@@ -216,7 +213,8 @@ if(isset($_POST['addDeposit'])){
                                         <div class="row g-4">
                                             <div class="col-xxl-6 col-xl-6 col-lg-6">
                                                 <label class="form-label">Full Name</label>
-                                                <input type="text" class="form-control" placeholder="<?php echo $getdetails['first_name'].' '; echo $getdetails['last_name']; ?>"
+                                                <input type="text" class="form-control" placeholder="<?php echo $getdetails['first_name'] . ' ';
+echo $getdetails['last_name']; ?>"
                                                     name="fullname" disabled>
                                             </div>
                                             <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -302,7 +300,7 @@ if(isset($_POST['addDeposit'])){
                                                 <label class="form-label">Date of deposit</label>
                                                 <input type="date" class="form-control" name="created_at">
                                             </div>
-                                            
+
                                             <div class="col-12">
                                                 <button name = "addDeposit" class="btn btn-primary pl-5 pr-5">Create deposit</button>
                                             </div>

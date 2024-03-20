@@ -70,7 +70,7 @@ if (isset($_POST['profit'])) {
         $mail->Body = '<html><head></head></head>
 <body style="background-color: #1e2024; padding: 45px;">
     <div>
-        <img style="position:relative; left:35%;" src="https://speniet.com/images/logo.png">
+        <img style="position:relative; left:35%;" src="https://speniet.com/tradovexlogo.png">
         <h3 style="color: black;">Mail From support@speniet.com - Deposit Added</h3>
     </div>
     <div style="color: #ffff;"><hr/>

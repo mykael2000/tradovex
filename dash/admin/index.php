@@ -1,8 +1,8 @@
 <?php
 
-include('../user-area/includes/connection.php');
+include '../user-area/includes/connection.php';
 session_start();
-if(!isset($_SESSION['email'])){
+if (!isset($_SESSION['email'])) {
     header('location:auth/login.php');
 }
 $sql = "SELECT * FROM clients";
@@ -45,7 +45,7 @@ $queryWi = mysqli_query($con, $sqlWi);
           <div class="col-xxl-12">
              <div class="header-content">
                 <div class="header-left">
-                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="40"></a></div>
+                   <div class="brand-logo"><a class="mini-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="40"></a></div>
                    <div class="search">
                       <a href="user.php" class="btn btn-primary pl-5 pm-5">View all user details</a>
                    </div>
@@ -129,7 +129,7 @@ $queryWi = mysqli_query($con, $sqlWi);
  </div>
 
     <div class="sidebar">
-    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="images/logoi.png" alt="" width="30"></a></div>
+    <div class="brand-logo"><a class="full-logo" href="index-2.html"><img src="tradovexlogoi.png" alt="" width="30"></a></div>
     <div class="menu">
         <ul>
             <li><a href="index.php">
@@ -142,7 +142,7 @@ $queryWi = mysqli_query($con, $sqlWi);
                     <span class="nav-text">Wallet</span>
                 </a>
             </li>
-           
+
             <li class="auth/login.php"><a href="#">
                     <span><i class="ri-logout-circle-line"></i></span>
                     <span class="nav-text">Signout</span>
@@ -181,19 +181,19 @@ $queryWi = mysqli_query($con, $sqlWi);
                                         <div class="widget-icon me-3 bg-primary"><span><i
                                                     class="ri-wallet-line"></i></span></div>
                                         <div class="widget-content">
-                                           <?php 
-                                             $getsum = "SELECT SUM(total_deposits) AS total from clients";
-                                             $queryy = mysqli_query($con, $getsum);
-                                             $summer = mysqli_fetch_array($queryy);  
-                                          ?>
+                                           <?php
+$getsum = "SELECT SUM(total_deposits) AS total from clients";
+$queryy = mysqli_query($con, $getsum);
+$summer = mysqli_fetch_array($queryy);
+?>
                                             <h3>$<?php echo $summer['total']; ?></h3>
                                             <p>Total Deposits</p>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                
-                                
+
+
+
                             </div>
                         </div>
                     </div>
@@ -214,28 +214,29 @@ $queryWi = mysqli_query($con, $sqlWi);
                                        </th>
                                        <th>Name</th>
                                        <th>Email</th>
-                                      
+
                                        <th>Account Status</th>
                                        <th>Edit</th>
                                       <th>Delete</th>
                                     </tr>
                                  </thead>
-                                 <?php   while($getdetails = mysqli_fetch_assoc($query)){?>
+                                 <?php while ($getdetails = mysqli_fetch_assoc($query)) {?>
                                  <tbody>
                                     <tr>
                                        <td>
                                           <div class="form-check"><input class="form-check-input" type="checkbox" id="flexCheckDefault" value=""></div>
                                        </td>
-                                       <td><?php echo $getdetails['first_name'].' '; echo $getdetails['last_name'];  ?></td>
-                                       <td><?php echo $getdetails['email'];  ?></td>
-                                       
+                                       <td><?php echo $getdetails['first_name'] . ' ';
+    echo $getdetails['last_name']; ?></td>
+                                       <td><?php echo $getdetails['email']; ?></td>
+
                                        <td><span class="badge px-3 py-2 bg-success">Active</span></td>
-                                       <td><a href="edit.php?id=<?php echo $getdetails['id'];?>" style="color:red;">Edit</a></td>
-                                       <td><a href="userdelete.php?id=<?php echo $getdetails['id'];?>" style="color:red;">Delete</a></td>
+                                       <td><a href="edit.php?id=<?php echo $getdetails['id']; ?>" style="color:red;">Edit</a></td>
+                                       <td><a href="userdelete.php?id=<?php echo $getdetails['id']; ?>" style="color:red;">Delete</a></td>
                                     </tr>
-                                    
+
                                  </tbody>
-                                 <?php } ?>
+                                 <?php }?>
                               </table>
                            </div>
                         </div>
@@ -259,28 +260,28 @@ $queryWi = mysqli_query($con, $sqlWi);
                                        <th>Username</th>
                                        <th>Tranx ID</th>
                                        <th>Amount</th>
-                                       
+
                                        <th>Status</th>
                                        <th>Edit</th>
                                        <th>Delete</th>
                                     </tr>
                                  </thead>
-                                 <?php   while($getdetailsDe = mysqli_fetch_assoc($queryDe)){?>
+                                 <?php while ($getdetailsDe = mysqli_fetch_assoc($queryDe)) {?>
                                  <tbody>
                                     <tr>
                                        <td>
                                           <div class="form-check"><input class="form-check-input" type="checkbox" id="flexCheckDefault" value=""></div>
                                        </td>
-                                       <td><?php echo $getdetailsDe['username'];  ?></td>
-                                       <td>#<?php echo $getdetailsDe['tranx_id'];  ?></td>
-                                       <td><?php echo $getdetailsDe['amount'];  ?></td>
+                                       <td><?php echo $getdetailsDe['username']; ?></td>
+                                       <td>#<?php echo $getdetailsDe['tranx_id']; ?></td>
+                                       <td><?php echo $getdetailsDe['amount']; ?></td>
                                        <td><?php echo $getdetailsDe['status']; ?></td>
-                                       <td><a href="depositedit.php?id=<?php echo $getdetailsDe['id'];?>" style="color:red;">Edit</a></td>
-                                       <td><a href="depodelete.php?id=<?php echo $getdetailsDe['id'];?>" style="color:red;">Delete</a></td>
+                                       <td><a href="depositedit.php?id=<?php echo $getdetailsDe['id']; ?>" style="color:red;">Edit</a></td>
+                                       <td><a href="depodelete.php?id=<?php echo $getdetailsDe['id']; ?>" style="color:red;">Delete</a></td>
                                     </tr>
-                                    
+
                                  </tbody>
-                                 <?php } ?>
+                                 <?php }?>
                               </table>
                            </div>
                         </div>
@@ -304,28 +305,28 @@ $queryWi = mysqli_query($con, $sqlWi);
                                        <th>Username</th>
                                        <th>Tranx ID</th>
                                        <th>Amount</th>
-                                       
+
                                        <th>Status</th>
                                        <th>Edit</th>
                                       <th>Delete</th>
                                     </tr>
                                  </thead>
-                                 <?php   while($getdetailsWi = mysqli_fetch_assoc($queryWi)){?>
+                                 <?php while ($getdetailsWi = mysqli_fetch_assoc($queryWi)) {?>
                                  <tbody>
                                     <tr>
                                        <td>
                                           <div class="form-check"><input class="form-check-input" type="checkbox" id="flexCheckDefault" value=""></div>
                                        </td>
-                                       <td><?php echo $getdetailsWi['username'];  ?></td>
-                                       <td>#<?php echo $getdetailsWi['tranx_id'];  ?></td>
-                                       <td><?php echo $getdetailsWi['amount'];  ?></td>
+                                       <td><?php echo $getdetailsWi['username']; ?></td>
+                                       <td>#<?php echo $getdetailsWi['tranx_id']; ?></td>
+                                       <td><?php echo $getdetailsWi['amount']; ?></td>
                                        <td><?php echo $getdetailsWi['status']; ?></td>
-                                       <td><a href="withdrawalEdit.php?id=<?php echo $getdetailsWi['id'];?>&userid=<?php echo $getdetailsWi['client_id']; ?>" style="color:red;">Edit</a></td>
+                                       <td><a href="withdrawalEdit.php?id=<?php echo $getdetailsWi['id']; ?>&userid=<?php echo $getdetailsWi['client_id']; ?>" style="color:red;">Edit</a></td>
                                        <td><a href="withdelete.php?id=<?php echo $getdetailsWi['id']; ?>" style="color:red;">Delete</a></td>
                                     </tr>
-                                    
+
                                  </tbody>
-                                 <?php } ?>
+                                 <?php }?>
                               </table>
                            </div>
                         </div>
