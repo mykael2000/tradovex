@@ -14,12 +14,8 @@ if (isset($_POST['submit'])) {
         echo '<div class="alert alert-success">
                         login authenticated! Redirecting Now....
                 </div>';
-        if (empty($row['kyc'])) {
-            header("location: verify-kyc.php");
+        header("location: ../user-area/dashboard.php");
 
-        } else {
-            header("location: ../user-area/dashboard.php");
-        }
     } else {
         echo "<script>alert('whoops! Email or Password is incorrect')</script>";
     }
