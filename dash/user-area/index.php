@@ -222,8 +222,7 @@ header("location:dashboard.php");
 <!-- ============================================================== -->
 <!-- End Page content -->
 <!-- ============================================================== -->
-@endsection
-@section('js')
+
 <script>
 function myFunction() {
     /* Get the text field */
