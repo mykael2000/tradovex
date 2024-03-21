@@ -367,7 +367,7 @@
                 <div class="col-lg-5 pe-lg-5">
                     <div class="mb-5">
                         <h2 style="color: #0f0b85" class="h4">Our advantage</h2>
-                        <p>Whether you are through our API, mobile application or website, Tradovex leading trading
+                        <p>Whether you are through our API website, Tradovex leading trading
                             engine can let you quickly trade safely.</p>
                     </div>
                     <div class="d-flex mb-3 service-alt">
@@ -577,16 +577,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="feature d-flex">
-                        <i class="fa-solid fa-check-double"></i>
-                        <div>
-                            <span>Credit your wallet and start earning with Tradovex.
-                            </span>
-
-                        </div>
-                    </div>
-                </div>
                 <div class="d-flex justify-content-center">
                     <a style="background-color: #030769; color:#fff; border-radius: 25px;" href="dash/auth/register.php"
                         class="btn btn-outline-white-reverse me-4">Get Started</a>
@@ -681,7 +671,7 @@
                 the
                 popularization of its investment program and anyone can be rewarded. To benefit from this, Create
                 account
-                and share your unique referral link and get 16% of payments made by your referrals who signed up using
+                and share your unique referral link and get 6% of payments made by your referrals who signed up using
                 your
                 link.
             </p>
