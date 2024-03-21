@@ -3,7 +3,7 @@
           <div class="container-fluid">
               <div class="row">
                   <div class="col-md-12">
-                      2018 - 2023 &copy; tradovex.
+                      2024 &copy; tradovex.
                   </div>
               </div>
           </div>
