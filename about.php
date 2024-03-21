@@ -106,7 +106,8 @@
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
                     <h1 style="color: #030769" class="heading mb-3" data-aos="fade-up">About Us</h1>
-                    <p>tradovex is revolutionizing how people invest and trade. the tradovex platform allows users to
+                    <p style="color: #0f0b85">tradovex is revolutionizing how people invest and trade. the tradovex
+                        platform allows users to
                         deploy automated trading bots to execute non-stop cryptocurrency trading and minimize risks
                         Committed to building a reliable platform that helps users stabilize their crypto earnings and
                         remove the proclivity of emotional decision-making, tradovex embraces user feedback to drive
