@@ -46,7 +46,7 @@ if (@$_GET['message'] == "success") {
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Speniet Users List
+            tradovex Users List
 
         </h1>
         <ol class="breadcrumb">

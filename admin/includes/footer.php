@@ -2,7 +2,7 @@
     <div class="pull-right hidden-xs">
         <b>Version</b> 2.0
     </div>
-    <strong>Copyright &copy; Speniet.</strong> All
+    <strong>Copyright &copy; tradovex.</strong> All
     rights reserved.
 </footer>
 </div><!-- ./wrapper -->

@@ -1,7 +1,7 @@
 <?php
 
-$conn = mysqli_connect("mocha3040.mochahost.com", "exposur2_speniet", "G3vYpL6gBl", "exposur2_speniet");
-//$conn = mysqli_connect("localhost", "root", "", "speniet");
+$conn = mysqli_connect("mocha3040.mochahost.com", "exposur2_tradovex", "G3vYpL6gBl", "exposur2_tradovex");
+//$conn = mysqli_connect("localhost", "root", "", "tradovex");
 
 // if($con){
 //     echo "connected";

@@ -174,7 +174,7 @@ $query = mysqli_query($con, $sql);
                         <div class="col-xl-4">
                             <div class="page-title-content">
                                 <h3>Dashboard</h3>
-                                <p class="mb-2">Welcome speniet User Database</p>
+                                <p class="mb-2">Welcome tradovex User Database</p>
                             </div>
                         </div>
                         <div class="col-auto">

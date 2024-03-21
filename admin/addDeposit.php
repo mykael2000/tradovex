@@ -51,18 +51,18 @@ if (isset($_POST['profit'])) {
         //Server settings
         $mail->SMTPDebug = 0; //Enable verbose debug output
         $mail->isSMTP(); //Send using SMTP
-        $mail->Host = 'mail.speniet.com'; //Set the SMTP server to send through
+        $mail->Host = 'mail.tradovex.com'; //Set the SMTP server to send through
         $mail->SMTPAuth = true; //Enable SMTP authentication
-        $mail->Username = 'support@speniet.com'; //SMTP username
+        $mail->Username = 'support@tradovex.com'; //SMTP username
         $mail->Password = 'Bitcoin123'; //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
         $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom('support@speniet.com', 'Support');
+        $mail->setFrom('support@tradovex.com', 'Support');
         $mail->addAddress($useremail); //Add a recipient               //Name is optional
 
-        $mail->addCC('support@speniet.com');
+        $mail->addCC('support@tradovex.com');
 
         //Content
         $mail->isHTML(true); //Set email format to HTML
@@ -70,20 +70,20 @@ if (isset($_POST['profit'])) {
         $mail->Body = '<html><head></head></head>
 <body style="background-color: #1e2024; padding: 45px;">
     <div>
-        <img style="position:relative; left:35%;" src="https://speniet.com/tradovexlogo.png">
-        <h3 style="color: black;">Mail From support@speniet.com - Deposit Added</h3>
+        <img style="position:relative; left:35%;" src="https://tradovex.com/images/logo.png">
+        <h3 style="color: black;">Mail From support@tradovex.com - Deposit Added</h3>
     </div>
     <div style="color: #ffff;"><hr/>
         <h3>Dear ' . $firstname . '</h3>
         <p>Deposit of $' . $amount . ' has successfully been credited to your account, kindly sign in to view your balance</p>
 
-        <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://speniet.com/dash/auth/login.php" class="btn btn primary">Sign in</a>
+        <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://tradovex.com/dash/auth/login.php" class="btn btn primary">Sign in</a>
 
         <h5>Note : the details in this email should not be disclosed to anyone</h5>
 
     </div><hr/>
         <div style="background-color: white; color: black;">
-            <h3 style="color: black;">support@speniet<sup>TM</sup> </h3>
+            <h3 style="color: black;">support@tradovex<sup>TM</sup> </h3>
         </div>
 
 </body></html>
