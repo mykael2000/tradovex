@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/connection.php");
+include "includes/connection.php";
 if (isset($_POST['login'])) {
     $email = $_POST["email"];
     $password = $_POST["password"];
@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
             // Password is correct, set up a session
             $_SESSION["user_id"] = $row["id"];
             $_SESSION["user_email"] = $row["email"];
-            
+
             // Redirect to the dashboard or another secure page
             header("Location: index.php");
             exit();
@@ -67,7 +67,7 @@ if (isset($_POST['login'])) {
 <body class="login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="index2.html"><b>Commercialprotrade Admin</b></a>
+            <a href="index2.html"><b>Tradovex Admin</b></a>
         </div><!-- /.login-logo -->
         <div class="login-box-body">
             <p class="login-box-msg">Sign in to start your session</p>
