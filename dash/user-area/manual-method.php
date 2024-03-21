@@ -6,7 +6,6 @@ if (!isset($_SESSION['username'])) {
     header('location: ../auth/login.php');
 
 }
-;
 
 $clientid = $_SESSION['username'];
 $sql = "SELECT * FROM clients WHERE username ='$clientid' ";
@@ -368,7 +367,7 @@ $status = "pending";
 $Desql = "INSERT into deposits (client_id, username, tranx_id, plan, paid_via, amount, status) VALUES ('$client_id','$username','$tranx_id','$plan','$paid_via','$amount','$status')";
 $Dequery = mysqli_query($con, $Desql);
 
-echo "<script>alert('Please always reconfirm the deposit wallet address on your account before every deposit. To do this, kindly contact the support team via the live chat')</script>";
+echo "<script>alert('Please always copy and paste your deposit wallet address while making a deposit into your account')</script>";
 
 $BTC = 1;
 $sqlBTC = "SELECT * FROM wallet WHERE id = '$BTC'";
