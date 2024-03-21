@@ -48,6 +48,8 @@ include "includes/header.php";
                     <h3 class="my-3"><?php echo $getdetails['first_name'] . ' ' . $getdetails['last_name']; ?></h3>
                     <a class="font-weight-bold text-white btn btn-sm btn-danger" href="account.php">Edit Account <i
                             class="icon-note"></i></a>
+                    <a class="float-right font-weight-bold text-white btn btn-sm btn-success"
+                        href="../auth/verify-kyc.php">Verification <i class="icon-note"></i></a>
                 </div>
             </div>
 
