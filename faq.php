@@ -47,13 +47,13 @@
 
 <body>
 
-    <div style="background-color:black;" class="site-mobile-menu site-navbar-target">
-        <div style="background-color:black;" class="site-mobile-menu-header">
+    <div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
+        <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
             </div>
         </div>
-        <div style="background-color:black;" class="site-mobile-menu-body"></div>
+        <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
     </div>
 
     <nav style="background-color:#fff; padding-top: 10px;" class="site-nav">
@@ -100,12 +100,12 @@
         </div>
     </nav>
 
-    <div style="" class="hero overlay inner-page">
+    <div class="hero overlay inner-page">
         <img src="images/blob.svg" alt="" class="img-fluid blob">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
-                    <h1 class="heading text-white mb-3" data-aos="fade-up">Frequently Asked Questions (FAQ)</h1>
+                    <h1 class="heading text-white mb-3" data-aos="fade-up">Frequently Asked Question (FAQ)</h1>
                 </div>
                 <div style="padding-top: 10%; z-index: 999999;" class="col-lg-4" data-aos="fade-up"
                     data-aos-delay="300">
