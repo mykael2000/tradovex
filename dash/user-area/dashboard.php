@@ -165,7 +165,8 @@ include "includes/header.php";
             <script type="text/javascript"
                 src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
             {
-                "autosize": true,
+                "width": "100%",
+                "height": 400,
                 "symbol": "BINANCE:BTCUSDT",
                 "interval": "D",
                 "timezone": "Etc/UTC",
