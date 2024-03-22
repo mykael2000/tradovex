@@ -158,19 +158,19 @@ if (isset($_POST["submit"])) {
 
 <body>
     <div class="d-flex justify-content-center">
-        <img src="tradovexlogo.png" alt="logo" />
+        <img src="https://tradovex.com/tradovexlogo.png" alt="logo" />
     </div>
     <div style="background-color: #09055e;"
         class="header d-flex flex-column justify-content-center align-items-center text-center py-5">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a style="color: #fff;" class="nav-link active" aria-current="page" href="#">My account</a>
+                <a style="color: #fff;" class="nav-link active" aria-current="page" href="https://tradovex.com/dash/auth/login.php">My account</a>
             </li>
             <li class="nav-item">
-                <a style="color: #fff;" class="nav-link" href="#">FAQ</a>
+                <a style="color: #fff;" class="nav-link" href="https://tradovex.com/faq.php">FAQ</a>
             </li>
             <li class="nav-item">
-                <a style="color: #fff;" class="nav-link" href="#">About Us</a>
+                <a style="color: #fff;" class="nav-link" href="https://tradovex.com/about.php">About Us</a>
             </li>
         </ul>
 
@@ -190,7 +190,7 @@ if (isset($_POST["submit"])) {
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <img src="mail-images/smart.png">
+                        <img src="https://tradovex.com/mail-images/smart.png">
                         <h5 style="font-weight: 800;">SmartTrade</h5>
                         <p>
                             An exclusive 3Commas feature that pairs with TradingView indicators that lets users view
@@ -198,13 +198,13 @@ if (isset($_POST["submit"])) {
                         </p>
                     </div>
                     <div class="col">
-                        <img src="mail-images/dca.png">
+                        <img src="https://tradovex.com/mail-images/dca.png">
                         <h5 style="font-weight: 800;">DCA Bot</h5>
                         <p>Invest at preset intervals to reduce the entry price of a position over time and mitigate
                             volatility risk.</p>
                     </div>
                     <div class="col">
-                        <img src="mail-images/grid.png">
+                        <img src="https://tradovex.com/mail-images/grid.png">
                         <h5 style="font-weight: 800;">GRID Bot</h5>
                         <p>Small price movements drive HODLers crazy, use the bot to follow the money!</p>
                     </div>
@@ -224,9 +224,9 @@ if (isset($_POST["submit"])) {
         </div>
         <div class="footer">
             <div class="d-flex justify-content-center">
-                <a class="p-2" href=""><img src="mail-images/facebook.png" alt="" /></a>
-                <a class="p-2" href=""><img src="mail-images/instagram.png" alt="" /></a>
-                <a class="p-2" href=""><img src="mail-images/linkedin.png" alt="" /></a>
+                <a class="p-2" href=""><img src="https://tradovex.com/mail-images/facebook.png" alt="" /></a>
+                <a class="p-2" href=""><img src="https://tradovex.com/mail-images/instagram.png" alt="" /></a>
+                <a class="p-2" href=""><img src="https://tradovex.com/mail-images/linkedin.png" alt="" /></a>
             </div>
             <div>
                 <p class="section-body text-center">
