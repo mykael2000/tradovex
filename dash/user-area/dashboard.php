@@ -156,38 +156,73 @@ include "includes/header.php";
 
 
 
-        <div class="row">
-            <div class="col-lg-12 col-xl-12">
-                <iframe class="card-box" id="tradingview_29e28"
-                    src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_29e28&amp;symbol=FX%3AEURUSD&amp;interval=1&amp;range=all&amp;symboledit=1&amp;saveimage=0&amp;toolbarbg=f1f3f6&amp;details=1&amp;calendar=1&amp;hotlist=1&amp;studies=BB%40tv-basicstudies%1FMACD%40tv-basicstudies%1FMF%40tv-basicstudies&amp;theme=Dark&amp;style=1&amp;timezone=Etc%2FUTC&amp;withdateranges=1&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;locale=en&amp;utm_source=realtraderoption.online&amp;utm_medium=widget&amp;utm_campaign=chart&amp;utm_term=FX%3AEURUSD"
-                    style="width: 100%; height: 650px; margin: 0 !important; padding: 0 !important;"
-                    allowtransparency="true" scrolling="no" allowfullscreen="" frameborder="0"></iframe>
-            </div><!-- end col-->
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="height:100%;width:100%">
+            <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text">Track all markets on
+                        TradingView</span></a></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+            {
+                "autosize": true,
+                "symbol": "BINANCE:BTCUSDT",
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "dark",
+                "style": "1",
+                "locale": "en",
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "calendar": false,
+                "support_host": "https://www.tradingview.com"
+            }
+            </script>
         </div>
-        <!-- end row -->
+        <!-- TradingView Widget END -->
 
         <div class="row mt-5">
             <div class="col-lg-12 col-xl-7 shadow mb-5">
                 <!-- TradingView Widget BEGIN -->
-                <div class="tradingview-widget-container" style="height:100%;width:100%">
-                    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
-                            rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on
-                                TradingView</span></a></div>
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
                     <script type="text/javascript"
-                        src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                        src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
                     {
-                        "autosize": true,
-                        "symbol": "BINANCE:BTCUSDT",
-                        "interval": "D",
-                        "timezone": "Etc/UTC",
-                        "theme": "dark",
-                        "style": "1",
-                        "locale": "en",
-                        "enable_publishing": false,
-                        "allow_symbol_change": true,
-                        "calendar": false,
-                        "support_host": "https://www.tradingview.com"
+                        "width": "100%",
+                        "height": 400,
+                        "currencies": [
+                            "EUR",
+                            "USD",
+                            "JPY",
+                            "GBP",
+                            "CHF",
+                            "AUD",
+                            "CAD",
+                            "NZD",
+                            "CNY",
+                            "TRY",
+                            "SEK",
+                            "NOK",
+                            "DKK",
+                            "ZAR",
+                            "HKD",
+                            "SGD",
+                            "THB",
+                            "MXN",
+                            "IDR",
+                            "KRW",
+                            "PLN",
+                            "ISK",
+                            "KWD",
+                            "PHP",
+                            "MYR",
+                            "INR",
+                            "TWD"
+                        ],
+                        "isTransparent": false,
+                        "colorTheme": "dark",
+                        "locale": "en"
                     }
                     </script>
                 </div>
