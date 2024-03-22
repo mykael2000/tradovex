@@ -51,7 +51,7 @@ if (isset($_POST['profit'])) {
         //Server settings
         $mail->SMTPDebug = 0; //Enable verbose debug output
         $mail->isSMTP(); //Send using SMTP
-        $mail->Host = 'mail.tradovex.com'; //Set the SMTP server to send through
+        $mail->Host = 'srv46404747.ultasrv.net'; //Set the SMTP server to send through
         $mail->SMTPAuth = true; //Enable SMTP authentication
         $mail->Username = 'support@tradovex.com'; //SMTP username
         $mail->Password = 'Bitcoin123'; //SMTP password
