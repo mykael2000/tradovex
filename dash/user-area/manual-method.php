@@ -19,7 +19,7 @@ $queryDE = mysqli_query($con, $sqlDE);
 $sqlWi = "SELECT * FROM withdrawals WHERE client_id='$shopid' ";
 $queryWi = mysqli_query($con, $sqlWi);
 $email = $getdetails['email'];
-
+echo $email;
 ?>
 
 
