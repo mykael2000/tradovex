@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include 'includes/connection.php';
 session_start();
 ob_start();
 if (!isset($_SESSION['username'])) {
