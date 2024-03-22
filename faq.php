@@ -105,7 +105,8 @@
         <div class="container">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
-                    <h1 class="heading text-white mb-3" data-aos="fade-up">Frequently Asked Question (FAQ)</h1>
+                    <h1 class="heading text-white mb-3" data-aos="fade-up"><span style="color: #0f0b85;">Frequently
+                            Asked Question (FAQ)</span></h1>
                 </div>
                 <div style="padding-top: 10%; z-index: 999999;" class="col-lg-4" data-aos="fade-up"
                     data-aos-delay="300">
