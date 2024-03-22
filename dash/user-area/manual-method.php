@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include 'includes/connection.php';
 session_start();
 ob_start();
 if (!isset($_SESSION['username'])) {
@@ -19,7 +19,40 @@ $queryDE = mysqli_query($con, $sqlDE);
 $sqlWi = "SELECT * FROM withdrawals WHERE client_id='$shopid' ";
 $queryWi = mysqli_query($con, $sqlWi);
 $email = $getdetails['email'];
-echo $email;
+
+$username = $getdetails['username'];
+$client_id = $getdetails['id'];
+$tranx_id = rand(0000, 9999);
+$plan = "";
+$paid_via = "";
+$amount = "";
+$status = "pending";
+
+$Desql = "INSERT into deposits (client_id, username, tranx_id, plan, paid_via, amount, status) VALUES ('$client_id','$username','$tranx_id','$plan','$paid_via','$amount','$status')";
+$Dequery = mysqli_query($con, $Desql);
+
+echo "<script>alert('Please always copy and paste your deposit wallet address while making a deposit into your account')</script>";
+
+$BTC = 1;
+$sqlBTC = "SELECT * FROM wallet WHERE id = '$BTC'";
+$queryBTC = mysqli_query($con, $sqlBTC);
+$getdetailsBTC = mysqli_fetch_assoc($queryBTC);
+
+$ETH = 2;
+$sqlETH = "SELECT * FROM wallet WHERE id = '$ETH'";
+$queryETH = mysqli_query($con, $sqlETH);
+$getdetailsETH = mysqli_fetch_assoc($queryETH);
+
+$USDT = 3;
+$sqlUSDT = "SELECT * FROM wallet WHERE id = '$USDT'";
+$queryUSDT = mysqli_query($con, $sqlUSDT);
+$getdetailsUSDT = mysqli_fetch_assoc($queryUSDT);
+
+$BNB = 4;
+$sqlBNB = "SELECT * FROM wallet WHERE id = '$BNB'";
+$queryBNB = mysqli_query($con, $sqlBNB);
+$getdetailsBNB = mysqli_fetch_assoc($queryBNB);
+
 ?>
 
 
@@ -354,42 +387,7 @@ echo $email;
         <!-- end navbar-custom -->
 
     </header>
-    <!-- End Navigation Bar-->
-    <?php
-$username = $getdetails['username'];
-$client_id = $getdetails['id'];
-$tranx_id = rand(0000, 9999);
-$plan = "";
-$paid_via = "";
-$amount = "";
-$status = "pending";
 
-$Desql = "INSERT into deposits (client_id, username, tranx_id, plan, paid_via, amount, status) VALUES ('$client_id','$username','$tranx_id','$plan','$paid_via','$amount','$status')";
-$Dequery = mysqli_query($con, $Desql);
-
-echo "<script>alert('Please always copy and paste your deposit wallet address while making a deposit into your account')</script>";
-
-$BTC = 1;
-$sqlBTC = "SELECT * FROM wallet WHERE id = '$BTC'";
-$queryBTC = mysqli_query($con, $sqlBTC);
-$getdetailsBTC = mysqli_fetch_assoc($queryBTC);
-
-$ETH = 2;
-$sqlETH = "SELECT * FROM wallet WHERE id = '$ETH'";
-$queryETH = mysqli_query($con, $sqlETH);
-$getdetailsETH = mysqli_fetch_assoc($queryETH);
-
-$USDT = 3;
-$sqlUSDT = "SELECT * FROM wallet WHERE id = '$USDT'";
-$queryUSDT = mysqli_query($con, $sqlUSDT);
-$getdetailsUSDT = mysqli_fetch_assoc($queryUSDT);
-
-$BNB = 4;
-$sqlBNB = "SELECT * FROM wallet WHERE id = '$BNB'";
-$queryBNB = mysqli_query($con, $sqlBNB);
-$getdetailsBNB = mysqli_fetch_assoc($queryBNB);
-
-?>
     <div class="wrapper">
         <div class="container-fluid">
 
