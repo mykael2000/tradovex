@@ -105,12 +105,13 @@
         <div class="container pt-3">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
-                    <h1 class="heading mb-3" style="color: #0f0b85;" data-aos="fade-up">Terms of Use</h1>
+                    <h1 class="heading mb-3" style="color: #0f0b85; padding-top:10px;" data-aos="fade-up">Terms of Use
+                    </h1>
                     <h3 style="color: #0f0b85; padding: 15px; font-weight: 800;">Version 1.0</h3>
                     <div style="color: #0f0b85; padding: 15px;">
-                        <p>INTRODUCTION</p>
-                        <p>SUBJECT MATTER OF THE TERMS OF USE</p>
-                        <p>SIGN-UP</p>
+                        <p style="color: #0f0b85;">INTRODUCTION</p>
+                        <p style="color: #0f0b85;">SUBJECT MATTER OF THE TERMS OF USE</p>
+                        <p style="color: #0f0b85;">SIGN-UP</p>
                     </div>
                     <h6 style="color: #0f0b85;">This Terms of Use is effective as of January 16, 2018.</h6>
 
