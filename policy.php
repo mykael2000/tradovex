@@ -47,13 +47,13 @@
 
 <body>
 
-    <div style="background-color:black;" class="site-mobile-menu site-navbar-target">
-        <div style="background-color:black;" class="site-mobile-menu-header">
+    <div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
+        <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
             </div>
         </div>
-        <div style="background-color:black;" class="site-mobile-menu-body"></div>
+        <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
     </div>
 
     <nav style="background-color:#fff; padding-top: 10px;" class="site-nav">
@@ -105,9 +105,10 @@
         <div class="container pt-3">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
-                    <h1 class="heading text-white mb-3" data-aos="fade-up">Privacy Policy</h1>
+                    <h1 style="color: #0f0b85;" class="heading mb-3" data-aos="fade-up">Privacy Policy</h1>
 
-                    <p>At tradovex, we are committed to protecting the privacy and confidentiality of any personal data
+                    <p style="color: #0f0b85;">At tradovex, we are committed to protecting the privacy and
+                        confidentiality of any personal data
                         we
                         collect when you use our sites. This Privacy Policy describes the ways we collect information
                         from
