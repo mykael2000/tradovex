@@ -47,13 +47,13 @@
 
 <body>
 
-    <div style="background-color:black;" class="site-mobile-menu site-navbar-target">
-        <div style="background-color:black;" class="site-mobile-menu-header">
+    <div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
+        <div style="background-color:fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
             </div>
         </div>
-        <div style="background-color:black;" class="site-mobile-menu-body"></div>
+        <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
     </div>
 
     <nav style="background-color:#fff; padding-top: 10px;" class="site-nav">
@@ -105,14 +105,14 @@
         <div class="container pt-3">
             <div class="row align-items-center justify-content-center text-center pt-5">
                 <div class="col-lg-8">
-                    <h1 class="heading text-white mb-3" data-aos="fade-up">Terms of Use</h1>
-                    <h3 style="color: #fff; padding: 15px; font-weight: 800;">Version 1.0</h3>
-                    <div style="color: #fff; padding: 15px;">
+                    <h1 class="heading mb-3" style="color: #0f0b85;" data-aos="fade-up">Terms of Use</h1>
+                    <h3 style="color: #0f0b85; padding: 15px; font-weight: 800;">Version 1.0</h3>
+                    <div style="color: #0f0b85; padding: 15px;">
                         <p>INTRODUCTION</p>
                         <p>SUBJECT MATTER OF THE TERMS OF USE</p>
                         <p>SIGN-UP</p>
                     </div>
-                    <h6 style="color: #fff;">This Terms of Use is effective as of January 16, 2018.</h6>
+                    <h6 style="color: #0f0b85;">This Terms of Use is effective as of January 16, 2018.</h6>
 
                 </div>
                 <!-- <div style="padding-top: 10%; z-index: 999999;" class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
