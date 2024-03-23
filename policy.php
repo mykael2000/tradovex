@@ -143,7 +143,7 @@
                         “Sites” are all websites that are owned and operated by tradovex, including:</p>
                     <ul>
                         <li>tradovex.com and all subdomains</li>
-                        <li>elementsproject.org and all subdomains</li>
+
                     </ul>
                     <p>These terms and conditions (“Terms of Use”) and the Privacy Policy (as defined below) govern your
                         access to and use of the Software and constitute the entire, complete, and binding agreement
