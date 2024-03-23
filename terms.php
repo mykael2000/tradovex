@@ -109,9 +109,10 @@
                     </h1>
                     <h3 style="color: #0f0b85; padding: 15px; font-weight: 800;">Version 1.0</h3>
                     <div style="color: #0f0b85; padding: 15px;">
-                        <p style="color: #0f0b85;">INTRODUCTION</p>
-                        <p style="color: #0f0b85;">SUBJECT MATTER OF THE TERMS OF USE</p>
-                        <p style="color: #0f0b85;">SIGN-UP</p>
+                        <p style="color: #0f0b85;"><span style="color: #0f0b85;">INTRODUCTION</span></p>
+                        <p style="color: #0f0b85;"><span style="color: #0f0b85;">SUBJECT MATTER OF THE TERMS OF
+                                USE</span></p>
+                        <p style="color: #0f0b85;"><span style="color: #0f0b85;">SIGN-UP</span></p>
                     </div>
                     <h6 style="color: #0f0b85;">This Terms of Use is effective as of January 16, 2018.</h6>
 
