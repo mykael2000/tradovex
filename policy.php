@@ -107,16 +107,18 @@
                 <div class="col-lg-8">
                     <h1 style="color: #0f0b85;" class="heading mb-3" data-aos="fade-up">Privacy Policy</h1>
 
-                    <p style="color: #0f0b85;">At tradovex, we are committed to protecting the privacy and
-                        confidentiality of any personal data
-                        we
-                        collect when you use our sites. This Privacy Policy describes the ways we collect information
-                        from
-                        and about you, and what we do with the information, so that you may decide whether or not to
-                        provide
-                        information to us. By accessing or using the website, you agree to be bound by the terms and
-                        conditions described in this document and also by any terms and conditions incorporated by
-                        reference.</p>
+                    <p style="color: #0f0b85;"><span style="color: #0f0b85;">At tradovex, we are committed to protecting
+                            the privacy and
+                            confidentiality of any personal data
+                            we
+                            collect when you use our sites. This Privacy Policy describes the ways we collect
+                            information
+                            from
+                            and about you, and what we do with the information, so that you may decide whether or not to
+                            provide
+                            information to us. By accessing or using the website, you agree to be bound by the terms and
+                            conditions described in this document and also by any terms and conditions incorporated by
+                            reference.</span></p>
 
                 </div>
                 <!-- <div style="padding-top: 10%; z-index: 999999;" class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
