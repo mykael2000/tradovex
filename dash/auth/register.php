@@ -283,7 +283,7 @@ if (isset($_POST["submit"])) {
         <h3>Dear ' . $first_name . '</h3>
         <p>You are welcome to Tradovex, an automated  online trading  platform made so even investors with zero trading experience  are successfully making profit </p>
         <h5>Kindly click the button below to verify your email address and proceed to KYC verification</h5>
-        <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://Tradovex.com/dash/auth/verify-email.php" class="btn btn primary">Verify Email</a>
+        <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://Tradovex.com/dash/auth/verify-email.php?email=' . $email . '" class="btn btn primary">Verify Email</a>
 
         <h5>Note : the details in this email should not be disclosed to anyone</h5>
 

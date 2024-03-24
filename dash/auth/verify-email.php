@@ -1,39 +1,86 @@
-<x-guest-layout>
-    <x-auth-card>
-        <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
-        </x-slot>
+<?php
+include '../user-area/includes/connection.php';
+session_start();
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
-        </div>
+$email = $_GET['email'];
 
-        @if (session('status') == 'verification-link-sent')
-            <div class="mb-4 font-medium text-sm text-green-600">
-                {{ __('A new verification link has been sent to the email address you provided during registration.') }}
-            </div>
-        @endif
+$sql = "UPDATE clients set email_verified_at = 'verified' WHERE email='$email'";
+$result = mysqli_query($con, $sql);
 
-        <div class="mt-4 flex items-center justify-between">
-            <form method="POST" action="{{ route('verification.send') }}">
-                @csrf
+?>
 
-                <div>
-                    <x-button>
-                        {{ __('Resend Verification Email') }}
-                    </x-button>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ $website->description }}">
+    <meta name="keywords" content="{{ $website->keywords }}">
+    <link href="{{ asset('storage/'.str_replace('public/', '', $company->favicon))}}" rel="icon">
+    <title>Tradovex | Verify</title>
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/ruang-admin.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gradient-login" style="background-color:black;">
+    <!-- Login Content -->
+    <div class="container-login" id="home">
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-8 col-md-9 pt-5">
+                <div style="background-color:#222;" class="card shadow-sm my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="login-form">
+                                    <div class="d-flex justify-content-center p-3 pb-5">
+                                        <img src="../../tradovexlogo.png" alt="logo">
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="h4 text-white mb-4 font-weight-bold">Welcome to Tradovex</h1>
+                                        <?php if ($sql) {?>
+                                        <p>Your email has successfully been verified</p>
+                                        <?php } else {
+    echo "<p>Error verifying email</p>";
+}?>
+                                    </div>
+
+                                    <hr>
+                                    <div class="d-flex content-justify">
+                                        <div class="text-left w-75 text-white">
+                                            Verified? <a class="font-weight-bold small" href="login.php"
+                                                style="color:#ffc107;">Sign into your account</a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="text-center text-white">
+                                        Return to <a class="font-weight-bold small" href="../../index.php"
+                                            style="color:#ffc107;">Home</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </form>
-
-            <form method="POST" action="{{ route('logout') }}">
-                @csrf
-
-                <button type="submit" class="underline text-sm text-gray-600 hover:text-gray-900">
-                    {{ __('Log out') }}
-                </button>
-            </form>
+            </div>
         </div>
-    </x-auth-card>
-</x-guest-layout>
+    </div>
+    <!-- Login Content -->
+    <?php include "../../includes/livechat.php";?>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../js/ruang-admin.min.js"></script>
+    <!-- particles -->
+    <script src="../asset/js/particles.min.js"></script>
+    <script src="../asset/js/app.js"></script>
+    <!-- scripts js -->
+    <script src="../asset/js/scripts.js"></script>
+</body>
+
+</html>
