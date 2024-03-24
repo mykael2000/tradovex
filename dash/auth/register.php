@@ -276,7 +276,7 @@ if (isset($_POST["submit"])) {
                 <html><head></head></head>
 <body style="background-color: #474d80; padding: 45px;">
     <div>
-        <img style="position:relative; left:35%;" src="https://Tradovex.com/images/logo.png">
+        <img style="position:relative; left:35%;" src="https://tradovex.com/tradovexlogo.png">
         <h3 style="color: black;">Mail From support@Tradovex.com - Successful Registration</h3>
     </div>
     <div style="color: #ffff;"><hr/>
@@ -285,7 +285,7 @@ if (isset($_POST["submit"])) {
         <h5>Kindly click the button below to verify your email address and proceed to KYC verification</h5>
         <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://Tradovex.com/dash/auth/verify-email.php?email=' . $email . '" class="btn btn primary">Verify Email</a>
 
-        <h5>Note : the details in this email should not be disclosed to anyone</h5>
+        <h5>Note : the details in this email should not be disclosed to anyone. If you did not register kindly ignore this email</h5>
 
     </div><hr/>
         <div style="background-color: white; color: black;">
