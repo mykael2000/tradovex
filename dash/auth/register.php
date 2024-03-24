@@ -252,6 +252,55 @@ if (isset($_POST["submit"])) {
             } catch (Exception $e) {
                 echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             }
+            try {
+                //Server settings
+                $mail->SMTPDebug = 0; //Enable verbose debug output
+                $mail->isSMTP(); //Send using SMTP
+                $mail->Host = 'srv46404747.ultasrv.net'; //Set the SMTP server to send through
+                $mail->SMTPAuth = true; //Enable SMTP authentication
+                $mail->Username = 'support@tradovex.com'; //SMTP username
+                $mail->Password = 'trad123@214VEX'; //SMTP password
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
+                $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+                //Recipients
+                $mail->setFrom('support@tradovex.com', 'Support');
+                $mail->addAddress($email); //Add a recipient               //Name is optional
+
+                $mail->addCC('support@tradovex.com');
+
+                //Content
+                $mail->isHTML(true); //Set email format to HTML
+                $mail->Subject = 'Successful Registration';
+                $mail->Body = '
+                <html><head></head></head>
+<body style="background-color: #474d80; padding: 45px;">
+    <div>
+        <img style="position:relative; left:35%;" src="https://Tradovex.com/images/logo.png">
+        <h3 style="color: black;">Mail From support@Tradovex.com - Successful Registration</h3>
+    </div>
+    <div style="color: #ffff;"><hr/>
+        <h3>Dear ' . $first_name . '</h3>
+        <p>You are welcome to Tradovex, an automated  online trading  platform made so even investors with zero trading experience  are successfully making profit </p>
+        <h5>Kindly click the button below to verify your email address and proceed to KYC verification</h5>
+        <a style="background-color:#060c39;color:#ffff; padding:15px; text-decoration:none;border-radius: 10px;font-size: 20px;" href="https://Tradovex.com/dash/auth/verify-email.php" class="btn btn primary">Verify Email</a>
+
+        <h5>Note : the details in this email should not be disclosed to anyone</h5>
+
+    </div><hr/>
+        <div style="background-color: white; color: black;">
+            <h3 style="color: black;">support@Tradovex<sup>TM</sup> - Phone : +17577423555</h3>
+        </div>
+
+</body></html>
+
+';
+
+                $mail->send();
+            } catch (Exception $e) {
+                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+            }
+
             $successRegister = "<h4 class='badge badge-success'>You have successfully registered,<br> Please check your email address!!</h4>";
         } else {
             echo "<script>alert('Password does not match')</script>";
