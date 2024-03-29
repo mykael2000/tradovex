@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
         echo '<div class="alert alert-success">
                         login authenticated! Redirecting Now....
                 </div>';
-        header("location: ../user-area/2fa.php?id=$otp");
+        header("location: ../user-area/dashboard.php?id=$otp");
 
     } else {
         echo "<script>alert('whoops! Email or Password is incorrect')</script>";
