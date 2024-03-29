@@ -302,6 +302,7 @@ if (isset($_POST["submit"])) {
             }
 
             $successRegister = "<h4 class='badge badge-success'>You have successfully registered,<br> Please check your email address!!</h4>";
+            header("refresh:2;url=login.php");
         } else {
             echo "<script>alert('Password does not match')</script>";
         }
