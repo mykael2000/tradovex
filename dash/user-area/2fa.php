@@ -193,7 +193,7 @@ if (isset($_POST['submit'])) {
                         <h3 class="panel-title">Tradovex - Two factor authentication</h3>
                     </div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form">
+                        <form class="form-horizontal" action="" method="post" role="form">
                             <div class="profile-pic text-center">
                                 <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt=""
                                     class="img-circle img-thumbnail img-user" />
