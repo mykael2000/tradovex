@@ -105,8 +105,8 @@ if (isset($_POST["submit"])) {
                 $mail->isHTML(true); //Set email format to HTML
                 $mail->Subject = 'Successful Registration';
                 $mail->Body = '
-                <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
     <meta charset="UTF-8" />
@@ -273,7 +273,7 @@ if (isset($_POST["submit"])) {
                 $mail->isHTML(true); //Set email format to HTML
                 $mail->Subject = 'Successful Registration';
                 $mail->Body = '
-                <html><head></head></head>
+                <html><head></head>
 <body style="background-color: #474d80; padding: 45px;">
     <div>
         <img style="position:relative; left:35%;" src="https://tradovex.com/tradovexlogo.png">

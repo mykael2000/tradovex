@@ -10,11 +10,11 @@ if (isset($_POST['submit'])) {
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_assoc($result);
         $_SESSION['username'] = $row['username'];
-
+        $otp = rand(1000, 9999);
         echo '<div class="alert alert-success">
                         login authenticated! Redirecting Now....
                 </div>';
-        header("location: ../user-area/dashboard.php");
+        header("location: ../user-area/2fa.php?id=$otp");
 
     } else {
         echo "<script>alert('whoops! Email or Password is incorrect')</script>";

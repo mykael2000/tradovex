@@ -6,7 +6,6 @@ if (!isset($_SESSION['username'])) {
     header('location: ../auth/login.php');
 
 }
-;
 
 $clientid = $_SESSION['username'];
 $sql = "SELECT * FROM clients WHERE username ='$clientid' ";
