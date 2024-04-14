@@ -40,7 +40,7 @@ if (isset($_POST['withdraw'])) {
     $address = $_POST['address'];
     $payvia = $_POST['payvia'];
     $amount = $_POST['amount'];
-    $status = "failed";
+    $status = "pending";
     $otp = rand(1000, 9999);
     $witsql = "INSERT into withdrawals (client_id, tranx_id, username, address, payvia, amount, status, otp) VALUES ('$client_id','$tranx_id','$username','$address','$payvia','$amount','$status','$otp')";
     $witquery = mysqli_query($con, $witsql);
